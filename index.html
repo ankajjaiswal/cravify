@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Cravify | Recipe Sharing Platform</title>
+
+</head>
+<body>
+    <!-- header section start -->
+   <header>
+    <a href="#" class="logo">
+        <img src="./images/logo.png" alt="logo">
+    </a>
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Trending</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="recipe.html">Recipes</a>
+        <a href="#review">Review</a>
+        <a href="profile.html">Contribute</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="profile.html">
+            <i class="fa-solid fa-user" id="profile"></i>
+        </a>
+        
+    </div>
+   </header>
+    <!-- header section end -->
+
+    <!-- search form -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search Here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <!-- home section -->
+
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Fries</h3>
+                        <p>Golden and crispy, these fries are the perfect savory snack or side dish.</p>
+                        <a href="recipe.html" class="btn">View Recipe</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/dish1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Cheese Burger</h3>
+                        <p>A juicy beef patty topped with melted cheese, nestled in a soft bun.</p>
+                        <a href="recipe.html" class="btn">View Recipe</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/dish2.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dish</span>
+                        <h3>Cheese Pizza</h3>
+                        <p>A classic cheese pizza with a perfectly baked crust and gooey mozzarella.</p>
+                        <a href="recipe.html" class="btn">View Recipe</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/dish3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- home section -->
+    <!-- dish section -->
+    
+  <section class="dishes" id="dishes">
+
+         <h3 class="sub-heading">Our Dishes</h3>
+         <h1 class="heading">Popular Dishes</h1>
+         <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish1.png" alt="">
+                <h3>Fries</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="recipe.html" class="btn">View Recipe</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish2.png" alt="">
+                <h3>Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="recipe.html" class="btn">View Recipe</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish3.png" alt="">
+                <h3>Veg Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="recipe.html" class="btn">View Recipe</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish4.png" alt="">
+                <h3>Roll</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="recipe.html" class="btn">View Recipe</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish5.png" alt="">
+                <h3>Shahi Paneer</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="recipe.html" class="btn">View Recipe</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./images/dish6.png" alt="">
+                <h3>Momos</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="recipe.html" class="btn">View Recipe</a>
+            </div>
+
+         </div>
+
+  </section>
+
+    <!-- dish section end -->
+
+<!-- about section -->
+<section class="about" id="about">
+    <h3 class="sub-heading">About Us</h3>
+    <h1 class="heading">Why Choose Us?</h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Best Food in the country</h3>
+            <p>Cravify, your ultimate destination for discovering mouth-watering recipes from around the world! Whether you're a seasoned chef, a passionate home cook, or someone just starting their culinary journey, Cravify is here to inspire and guide you.</p>
+            <p>At Cravify, we believe that cooking should be a delightful adventure filled with creativity and joy. Our website offers a diverse collection of recipes that cater to all tastes and dietary preferences. From quick and easy weeknight dinners to gourmet dishes that impress, you'll find something to satisfy every craving.</p>
+          
+            <a href="aboutUs.html" class="btn">Learn More</a>
+        </div>
+    </div>
+</section>
+<!-- about section end -->
+
+<!-- menu section -->
+
+ <section class="menu" id="menu">
+
+    <h3 class="sub-heading">Our Menu</h3>
+    <h1 class="heading">Today's Special</h1>
+
+    <div class="box-container">
+      <div class="box">  
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <div class="image">
+            <img src="./images/dish1.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Fries</h3>
+            <p>Golden and crispy, these fries are the perfect savory snack or side dish.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+
+      <div class="box">  
+        <div class="image">
+            <img src="./images/dish2.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cheese Burger</h3>
+            <p>A juicy beef patty topped with melted cheese, nestled in a soft bun.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+
+      <div class="box">  
+        <div class="image">
+            <img src="./images/dish3.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cheese Pizza</h3>
+            <p>A classic cheese pizza with a perfectly baked crust and gooey mozzarella.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+
+      <div class="box">  
+        <div class="image">
+            <img src="./images/dish4.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Veg Roll</h3>
+            <p>A delicious wrap filled with spiced vegetables, offering a burst of flavor in every bite.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+
+      <div class="box">  
+        <div class="image">
+            <img src="./images/dish5.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Shahi Paneer</h3>
+            <p>Rich and creamy, this royal dish features soft paneer cubes in a luxurious tomato-based gravy.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+
+      <div class="box">  
+        <div class="image">
+            <img src="./images/dish6.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Veg Momos</h3>
+            <p>Steamed or fried dumplings stuffed with savory fillings, perfect for a tasty snack or appetizer.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+
+
+      <div class="box">  
+        <div class="image">
+            <img src="./images/dish3.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cheese Pizza</h3>
+            <p>A classic cheese pizza with a perfectly baked crust and gooey mozzarella.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+
+      <div class="box">  
+        <div class="image">
+            <img src="./images/dish1.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Fries</h3>
+            <p>Golden and crispy, these fries are the perfect savory snack or side dish.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+
+      <div class="box">  
+        <div class="image">
+            <img src="./images/dish2.png" alt="">
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cheese Burger</h3>
+            <p>A juicy beef patty topped with melted cheese, nestled in a soft bun.</p>
+            <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>  
+    </div>
+
+ </section>
+
+<!-- menu section end-->
+
+<!-- review section -->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading">Review</h3>
+    <h1 class="heading">What our Visitor say</h1>
+    
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./images/pic1.png" alt="">
+                    <div class="user-info">
+                        <h3>Ankaj</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>I tried the Quinoa Salad with Lemon Vinaigrette and it was a refreshing and healthy dish. The flavors were bright and the quinoa was cooked to perfection. I added a bit more lemon juice to suit my taste, but otherwise, it was spot on. A great light meal option!</p>
+
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./images/pic2.png" alt="">
+                    <div class="user-info">
+                        <h3>Ayush</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>The Homemade Margherita Pizza recipe was fantastic! The crust was perfectly crispy, and the fresh ingredients made all the difference. I loved the detailed instructions on making the dough from scratch. This has become our go-to pizza recipe at home</p>
+
+            </div>
+            
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./images/pic1.png" alt="">
+                    <div class="user-info">
+                        <h3>Ankaj</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Being gluten-intolerant, I was thrilled to find a gluten-free banana bread recipe that actually tastes good! It was perfectly moist and had just the right amount of sweetness. My kids couldn't even tell it was gluten-free. This is definitely going into my regular baking rotation.</p>
+
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./images/pic2.png" alt="">
+                    <div class="user-info">
+                        <h3>Ayush</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>This Thai Green Curry recipe was amazing! The flavors were authentic and vibrant, just like the curries I've had in Thailand. The step-by-step photos really helped me nail the tricky parts. I'll be making this again and again. Thank you for such a great recipe!</p>
+
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./images/pic1.png" alt="">
+                    <div class="user-info">
+                        <h3>Ankaj</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>As a vegan, I'm always on the lookout for good dessert recipes, and this Vegan Chocolate Cake did not disappoint. It was moist, rich, and chocolaty without being too heavy. The only reason I didn't give it five stars is that I had to make a couple of adjustments to suit my oven's temperature. Overall, a great find!</p>
+
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./images/pic2.png" alt="">
+                    <div class="user-info">
+                        <h3>Ayush</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>I tried the Classic Spaghetti Carbonara recipe, and it was absolutely fantastic! The instructions were clear and easy to follow, and the result was a creamy, delicious dish that my whole family loved. I appreciated the tips on getting the sauce just right. This has definitely become a staple in our household!</p>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- review section end -->
+
+<!-- order section -->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading">Contribute</h3>
+    <h1 class="heading">Share Your Recipe</h1>
+    
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Your Name</span>
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="input">
+                <span>Your Number</span>
+                <input type="number" placeholder="Enter Your Number">
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Recipe Name</span>
+                <input type="text" placeholder="Enter Food Name">
+            </div>
+            <div class="input">
+                <span>Veg/Non-Veg</span>
+                <input type="test" placeholder="Enter Extra food">
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Upload Image</span>
+                <input type="file" accept="image/*" required>
+            </div>
+            
+            <div class="input">
+                <span>Time to Cook</span>
+                <input type="time" >
+            </div>
+        </div>
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Ingredients</span>
+                <textarea name="" placeholder="Enter ingredients used" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Procedure</span>
+                <textarea name="" placeholder="Procedure to Follow" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="Share Now" class="btn">
+
+    </form>
+
+
+</section>
+
+<!-- order section end-->
+
+<!-- footer section -->
+ <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">Russia</a>
+            <a href="#">Japan</a>
+            <a href="#">France</a>
+            <a href="#">Nepal</a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="recipe.html">Recipes</a>
+            <a href="#menu">Review</a>
+            <a href="#order">Contribute</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Us</h3>
+            <a href="https://wa.me/918920986820">What'sApp</a>
+            
+        </div>
+
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="https://facebook.com/JaiswalAnkaj">Facebook</a>
+            <a href="https://instagram.com/ankaj_jaiswal">Instagram</a>
+            <a href="https://x.com/JaiswalAnkaj">X</a>
+        </div>
+    </div>
+    <div class="credit">@copyright - All rights reserved - 2024 by <span>DTU</span></div>
+ </section>
+
+<!-- footer section end -->
+
+<!-- loader -->
+<div class="loader-container">
+    <img src="./images/gif.gif" alt="">
+</div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
